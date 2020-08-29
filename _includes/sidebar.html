@@ -14,11 +14,18 @@
     {% if sidebar.tagline %}
     <h3 class="tagline">{{ sidebar.tagline }}</h3>
     {% endif %}
-
+    
+    {% if sidebar.email %}
+      <a href="mailto:{{ sidebar.email }}">
+          <h3 class="email">
+            <i class="fas fa-envelope"></i>
+            {{ sidebar.email }}
+          </h3>
+      </a>
+    {% endif %}
   </div><!--//profile-container-->
 
-  {% include contact.html %}
-
+  {% include skillsets.html %}
   {% if sidebar.education %}
     {% include education.html %}
   {% endif %}
