@@ -118,9 +118,13 @@ projects:
     #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
       - title: Curriculum Manager
-        link: "https://github.com/sn1047/Curriculum"
-        tagline: "A curriculum and student management web application designed 
-                  for martial arts instructors and schools."
+        link: "https://github.com/jfong9/Curriculum"
+        tagline: "(JavaScript, React, React Router, Node.js, Express, Apollo GraphQL, REST, MongoDB, Jest, React Testing Library)"
+        details: |
+          A Curriculum and student management web application designed for martial arts instructors and schools.
+          - Created both a REST and GraphQL API on Node.js to transfer data to and from the client with a MongoDB database.
+          - Front-end implemented with focus on creating responsive UX for desktop and mobile usage (React, CSS, React Router)
+          - Independent tests created for various parts of the application (DAO, Controller, Client API, Client UI)
 
 # publications:
 #     title: Publications
