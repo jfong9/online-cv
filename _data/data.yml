@@ -76,7 +76,7 @@ experiences:
       time: November 2020 - Present
       company: KMS Service Inc. (A Kikkoman subsidiary)
       details: |
-        Worked with small development team responsible for maintaining Kikkoman Sales, USA's legacy system.
+        Worked with a small development team responsible for maintaining, updating, and migrating Kikkoman Sales, USA's legacy system.
         - Sage 300 Migration (C#, .NET, WPF, SQL, EDI, Git)
           - Migrated Kikkoman Sales, USA’s accounts payable system from legacy programs to Sage 300. 
             This included stream lining, identifying, and encapsulating business needs to transition different operations in multiple years long steps. 
