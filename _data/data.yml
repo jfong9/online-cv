@@ -31,12 +31,11 @@ sidebar:
 
     skill-sets:
         - title: Technical Skills
-          skill-list: 
-            - item: JavaScript, Node.js, React
-            - item: C#, .NET, WCF, WPF
+          skill-list:             
+            - item: C#, .NET, WPF, SQL, Git
             - item: C++, Python
-            - item: REST, GraphQL
-            - item: MongoDb, SQL, Git
+            - item: JavaScript, Node.js, React
+            - item: REST, MongoDb, GraphQL
         - title: Soft Skills
           skill-list: 
             - item: Teamwork, Communication
@@ -57,7 +56,7 @@ career-profile:
     title: About 
     summary: |
       Software engineer who loves learning about and using software to solve problems. 
-      Nine years of experience adapting to my employers’ needs – developing both full 
+      Fourteen years of experience adapting to my employers’ needs – developing full 
       stack delivered software and industry advancing improvements to existing platforms.
 education:
     - degree: B.S. Computer Science, Minor Mathematics
@@ -73,6 +72,17 @@ education:
       #     - Bullet point
     
 experiences:
+    - role: Software Developer
+      time: November 2020 - Present
+      company: KMS Service Inc. (A Kikkoman subsidiary)
+      details: |
+        Worked with small development team responsible for maintaining Kikkoman Sales, USA's legacy system.
+        - Sage 300 Migration (C#, .NET, WPF, SQL, EDI, Git)
+          - Migrated Kikkoman Sales, USA’s accounts payable system from legacy programs to Sage 300. 
+            This included stream lining, identifying, and encapsulating business needs to transition different operations in multiple years long steps. 
+          - Developed accounting programs that bridge the gap between business operations that can be done on Sage vs. ones that needed to remain on the legacy system. 
+          - In an old environment where shared code was nonexistent, introduced more modern development practices including a common library, EDI library, and a Sage 300 API wrapper for other developers to use and share among teams. 
+          - Transitioned the team from manual source control of copy and pasting folders to using Git for all new development.
     - role: Software Engineer
       time: March 2016 - July 2019
       company: Westinghouse Electric Corporation
