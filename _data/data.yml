@@ -55,9 +55,9 @@ sidebar:
 career-profile:
     title: About 
     summary: |
-      Software engineer who loves learning about and using software to solve problems. 
-      Fourteen years of experience adapting to my employers’ needs – developing full 
-      stack delivered software and industry advancing improvements to existing platforms.
+      Software engineer who loves learning about technology and using it to solve problems. Fifteen years of experience 
+      adapting to my employers’ needs – developing full stack software providing companywide improvements to existing 
+      platforms and processes.
 education:
     - degree: B.S. Computer Science, Minor Mathematics
       university: San José State University -- May 2008
@@ -70,25 +70,29 @@ education:
       #   pretium quis, sem.
       #     - Bullet point
       #     - Bullet point
-    
+
 experiences:
     - role: Software Developer
       time: November 2020 - Present
       company: KMS Service Inc. (A Kikkoman subsidiary)
       details: |
-        Worked with a small development team responsible for maintaining, updating, and migrating Kikkoman Sales, USA's legacy system.
+        Work with a small team responsible for maintaining, updating, and migrating Kikkoman Sales, USA’s legacy systems.
         - Sage 300 Migration (C#, .NET, WPF, SQL, EDI, Git)
-          - Migrated Kikkoman Sales, USA’s accounts payable system from legacy programs to Sage 300. 
-            This included stream lining, identifying, and encapsulating business needs to transition different operations in multiple years long steps. 
-          - Developed accounting programs that bridge the gap between business operations that can be done on Sage vs. ones that needed to remain on the legacy system. 
-          - In an old environment where shared code was nonexistent, introduced more modern development practices including a common library, EDI library, and a Sage 300 API wrapper for other developers to use and share among teams. 
+          - Migrating Kikkoman Sales, USA’s operations from legacy VB6 programs to a mix of .NET programs integrating with 
+            Sage 300. This included stream lining, identifying, and encapsulating business needs to newer and more efficient 
+            operations while eliminating others.
+          - Developed common libraries, including a Sage 300 API wrapper for other developers to use and share among teams. 
+            This standardized Sage 300 programming while separating business specific code, allowing us to share our team’s 
+            library with other subsidiaries of Kikkoman Corporation. 
           - Transitioned the team from manual source control of copy and pasting folders to using Git for all new development.
+          - Developed company wide EDI methodology used to create and read raw EDI protocols. Inbound EDI data then used to 
+            automate creation of various Sage 300 transactions.
+
     - role: Software Engineer
       time: March 2016 - July 2019
       company: Westinghouse Electric Corporation
       details: |
-        Worked in a small test team and internal tools team to write test procedures, code/create test cases, 
-        and develop/implement new standard tool usage for other teams.
+        Worked with an internal tools team to develop/implement new standard software used by other teams.
         - Created a full stack AutoCAD Drawing Tool. A Windows
           client/service application developed using C#, .NET, WCF, WPF, SQL, and the AutoCAD API
           to read a customer’s database and dynamically create AutoCAD drawings.
@@ -100,13 +104,11 @@ experiences:
           - Increased accessibility and collaboration capabilities through design choices.
           - Saved hours of overhead with content creation by designing the process 
             to be simpler, flexible and reusable.
-        - Created Nuclear Application Program testing tools. A set of tools using VBA in MS Excel and Python. 
-          VBA was used to generate Python interface declarations based on document specs. 
-          The set of Python tools were used for defining nuclear application logic, 
-          simulation, and result generation which was then independantly verified 
-          and tested against the customer's plant process computer system.
-          - Reduced costs through reducing human error, improving efficiency, 
-            and increasing troubleshooting capabilities.
+        Worked with a small test team to write test procedures and develop/create test cases for Nuclear Application Programs.
+        - Created OPAL Table Generator - (VBA, Python):
+          - Used VBA in MS Excel to generate Python interface code. Python then used to simulate and calculate nuclear 
+            application logic and generate verification tests.
+          -	Reduced costs through reducing human error, improving efficiency, and increasing troubleshooting capabilities.
           -	Enabled non-programmers a way to write programmatic tests, allowing for more team involvement. 
 
     - role: Software Engineer
@@ -117,16 +119,15 @@ experiences:
           acquisition system (C++, MFC, VBA, FORTRAN, C#) to debug and
           resolve customer issues. Issues ranged from critical, hard to find, pre-existing 
           bugs (buffer overflow) to cosmetic user interface changes and functionality.
-        - Developed new functionality according to customer needs, starting from
-          requirements to completion.
+        - Successfully worked with customers to develop new functionality going from requirements to completion.
+
     - role: Senior Instructor
       time: July 1999 - Present
       company: Yee's Martial Arts Academy
       details: |
-        - 30 years of martial arts training – able to stay level headed and think through problems during stressful situations.
-        - Leadership skills, group management, dedication, discipline, and experience in developing many types of people. 
-        - Manage classes with 15 to 20 students of all ages, ranging from 4 to 60+ years old. Adapting to each of their individual learning methods and physical capabilities through differentiated instruction.  
-
+        - 30+ years of martial arts training – able to stay level headed and think through problems during stressful situations.
+        - Leadership skills, group management, dedication, discipline, and experience in working with and skilling up many types of people. 
+        - Manage classes with 15 to 30 students of all ages, ranging from 4 to 60+ years old. Adapting to each of their individual learning methods and physical capabilities through differentiated instruction.  
 
 projects:
     title: Projects
